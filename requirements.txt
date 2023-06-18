@@ -93,5 +93,7 @@ uvloop==0.17.0
 watchfiles==0.19.0
 websockets==11.0.3
 Werkzeug==2.3.4
+azure-search-documents==11.4.0a20230509004
+--extra-index-url https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple/
 yarl==1.9.2
 zstandard==0.21.0
