@@ -1,5 +1,6 @@
 import os
-
+from azure.core.credentials import AzureKeyCredential
+from azure.search.documents import SearchClient
 from flask import (Flask, redirect, render_template, request,
                    send_from_directory, url_for)
 
